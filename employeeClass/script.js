@@ -6,6 +6,8 @@ Create a class called Employee with three properties: name, position, and salary
 Expected Output:
 console.log(employee1.getSalary()); // Output: 80000
 */
+
+debugger
 class Employee{
     constructor(name,position,salary){
     this.name = name;
@@ -15,6 +17,7 @@ class Employee{
     getSalary(){
         return `Mr. ${this.name} salary is ${this.salary}`
     }
+ 
 }
 
 const Employee1 = new Employee("Sumit","Supervisor",80000)
